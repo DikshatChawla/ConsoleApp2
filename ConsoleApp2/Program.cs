@@ -3,6 +3,8 @@
 // c0732121  c0730133
 // assignment 2
 // march 6, 2019
+
+
 namespace DelegatesAndEvents
 {
     public class DelegateExercises
@@ -16,7 +18,7 @@ namespace DelegatesAndEvents
         public void Method2()
         {
             MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate();
+            myDelegate(50);
         }
 
     }
